@@ -1,5 +1,5 @@
-# NestJS 백엔드는 Vercel에 배포하지 않음
-server
+# NestJS 백엔드는 Vercel에 배포하지 않음 (루트 server 폴더만 제외, app/admin/server 포함)
+/server
 
 # 문서/개발용 (선택)
 *.md
