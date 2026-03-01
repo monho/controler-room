@@ -1,0 +1,20 @@
+{
+  "name": "afreeca-bjapi",
+  "version": "1.0.0",
+  "description": "아프리카TV 비공식 API(bjapi.afreecatv.com) 클라이언트 라이브러리",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["afreecatv", "afreeca", "bjapi", "streaming", "unofficial"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
